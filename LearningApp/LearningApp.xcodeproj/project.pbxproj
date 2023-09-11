@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -43,7 +43,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9B75120722B036A00071C5CB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B75120922B03EA20071C5CB /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		9BDC678222A85ABB0098A2E2 /* InboxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxTableViewController.swift; sourceTree = "<group>"; };
 		9BDC679622AADED80098A2E2 /* MarketingCloudServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MarketingCloudServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,13 +77,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		455509EBBE20A40EA92309F1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		9BDC679722AADED90098A2E2 /* MarketingCloudServiceExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				9B75120922B03EA20071C5CB /* ReadMe.md */,
-				9B75120722B036A00071C5CB /* Podfile */,
 				9BF1C6D522A6DD2D004E4AF0 /* LearningApp */,
 				9BDC679722AADED90098A2E2 /* MarketingCloudServiceExtension */,
 				9BF1C6D422A6DD2D004E4AF0 /* Products */,
-				455509EBBE20A40EA92309F1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
