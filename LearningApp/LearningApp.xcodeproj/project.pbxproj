@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9BDC678322A85ABB0098A2E2 /* InboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC678222A85ABB0098A2E2 /* InboxTableViewController.swift */; };
 		9BDC679922AADED90098A2E2 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC679822AADED90098A2E2 /* NotificationService.swift */; };
 		9BDC679D22AADED90098A2E2 /* MarketingCloudServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9BDC679622AADED80098A2E2 /* MarketingCloudServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9BF1C6D722A6DD2D004E4AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1C6D622A6DD2D004E4AF0 /* AppDelegate.swift */; };
@@ -15,9 +14,9 @@
 		9BF1C6DC22A6DD2D004E4AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1C6DA22A6DD2D004E4AF0 /* Main.storyboard */; };
 		9BF1C6DE22A6DD2F004E4AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1C6DD22A6DD2F004E4AF0 /* Assets.xcassets */; };
 		9BF1C6E122A6DD2F004E4AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1C6DF22A6DD2F004E4AF0 /* LaunchScreen.storyboard */; };
-		9BF1C70322A8300D004E4AF0 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1C70222A8300D004E4AF0 /* RegistrationViewController.swift */; };
 		FF7E31BA2AAFB13D0057F89C /* SFMCSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FF7E31B92AAFB13D0057F89C /* SFMCSDK */; };
 		FF7E31BD2AAFB1470057F89C /* MarketingCloudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FF7E31BC2AAFB1470057F89C /* MarketingCloudSDK */; };
+		FF7E31BF2AAFBA5B0057F89C /* MarketingCloudSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF7E31BE2AAFBA5B0057F89C /* MarketingCloudSDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		9B75120922B03EA20071C5CB /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
-		9BDC678222A85ABB0098A2E2 /* InboxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxTableViewController.swift; sourceTree = "<group>"; };
 		9BDC679622AADED80098A2E2 /* MarketingCloudServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MarketingCloudServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDC679822AADED90098A2E2 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		9BDC679A22AADED90098A2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,8 +55,8 @@
 		9BF1C6DD22A6DD2F004E4AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BF1C6E022A6DD2F004E4AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BF1C6E222A6DD2F004E4AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BF1C70222A8300D004E4AF0 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		EF74B3682360F18B00D3ECF1 /* LearningApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = LearningApp.entitlements; sourceTree = "<group>"; };
+		FF7E31BE2AAFBA5B0057F89C /* MarketingCloudSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MarketingCloudSDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,11 +114,10 @@
 				9BF1C6D622A6DD2D004E4AF0 /* AppDelegate.swift */,
 				9BF1C6D822A6DD2D004E4AF0 /* ViewController.swift */,
 				9BF1C6DA22A6DD2D004E4AF0 /* Main.storyboard */,
-				9BF1C70222A8300D004E4AF0 /* RegistrationViewController.swift */,
-				9BDC678222A85ABB0098A2E2 /* InboxTableViewController.swift */,
 				9BF1C6DD22A6DD2F004E4AF0 /* Assets.xcassets */,
 				9BF1C6DF22A6DD2F004E4AF0 /* LaunchScreen.storyboard */,
 				9BF1C6E222A6DD2F004E4AF0 /* Info.plist */,
+				FF7E31BE2AAFBA5B0057F89C /* MarketingCloudSDK.bundle */,
 			);
 			path = LearningApp;
 			sourceTree = "<group>";
@@ -229,6 +226,7 @@
 				9BF1C6E122A6DD2F004E4AF0 /* LaunchScreen.storyboard in Resources */,
 				9BF1C6DE22A6DD2F004E4AF0 /* Assets.xcassets in Resources */,
 				9BF1C6DC22A6DD2D004E4AF0 /* Main.storyboard in Resources */,
+				FF7E31BF2AAFBA5B0057F89C /* MarketingCloudSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BDC678322A85ABB0098A2E2 /* InboxTableViewController.swift in Sources */,
-				9BF1C70322A8300D004E4AF0 /* RegistrationViewController.swift in Sources */,
 				9BF1C6D922A6DD2D004E4AF0 /* ViewController.swift in Sources */,
 				9BF1C6D722A6DD2D004E4AF0 /* AppDelegate.swift in Sources */,
 			);
