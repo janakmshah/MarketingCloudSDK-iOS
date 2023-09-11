@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		9BF1C6DE22A6DD2F004E4AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1C6DD22A6DD2F004E4AF0 /* Assets.xcassets */; };
 		9BF1C6E122A6DD2F004E4AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1C6DF22A6DD2F004E4AF0 /* LaunchScreen.storyboard */; };
 		9BF1C70322A8300D004E4AF0 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1C70222A8300D004E4AF0 /* RegistrationViewController.swift */; };
+		FF7E31BA2AAFB13D0057F89C /* SFMCSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FF7E31B92AAFB13D0057F89C /* SFMCSDK */; };
+		FF7E31BD2AAFB1470057F89C /* MarketingCloudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FF7E31BC2AAFB1470057F89C /* MarketingCloudSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7E31BD2AAFB1470057F89C /* MarketingCloudSDK in Frameworks */,
+				FF7E31BA2AAFB13D0057F89C /* SFMCSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +160,10 @@
 				9BDC679C22AADED90098A2E2 /* PBXTargetDependency */,
 			);
 			name = LearningApp;
+			packageProductDependencies = (
+				FF7E31B92AAFB13D0057F89C /* SFMCSDK */,
+				FF7E31BC2AAFB1470057F89C /* MarketingCloudSDK */,
+			);
 			productName = LearningApp;
 			productReference = 9BF1C6D322A6DD2D004E4AF0 /* LearningApp.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +200,10 @@
 				Base,
 			);
 			mainGroup = 9BF1C6CA22A6DD2D004E4AF0;
+			packageReferences = (
+				FF7E31B82AAFB13D0057F89C /* XCRemoteSwiftPackageReference "sfmc-sdk-ios" */,
+				FF7E31BB2AAFB1470057F89C /* XCRemoteSwiftPackageReference "MarketingCloudSDK-iOS" */,
+			);
 			productRefGroup = 9BF1C6D422A6DD2D004E4AF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -509,6 +521,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF7E31B82AAFB13D0057F89C /* XCRemoteSwiftPackageReference "sfmc-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/salesforce-marketingcloud/sfmc-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FF7E31BB2AAFB1470057F89C /* XCRemoteSwiftPackageReference "MarketingCloudSDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/salesforce-marketingcloud/MarketingCloudSDK-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF7E31B92AAFB13D0057F89C /* SFMCSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF7E31B82AAFB13D0057F89C /* XCRemoteSwiftPackageReference "sfmc-sdk-ios" */;
+			productName = SFMCSDK;
+		};
+		FF7E31BC2AAFB1470057F89C /* MarketingCloudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF7E31BB2AAFB1470057F89C /* XCRemoteSwiftPackageReference "MarketingCloudSDK-iOS" */;
+			productName = MarketingCloudSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9BF1C6CB22A6DD2D004E4AF0 /* Project object */;
 }
